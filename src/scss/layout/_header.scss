@@ -1,11 +1,21 @@
 .header{
-  background: $primer-color;
-  color: $prime-text-color;
-  height: 500px;
+  //background-color: $header-bg;
+  height: 100vh;
+
 }
-
-.me{
-  margin-top: 200px;
+.brand{
   text-align: center;
-
+  width: 400px;
+  height: auto;
+  position: fixed;
+  left:50%;
+  top:50%;
+  z-index: -2;
+  transition: all .3s;
+  transform: translate3d(-50%,-50%,0);
+  padding:10px 20px;
+}
+.brand_title{
+  color: $primer3-color;
+  margin-top: 0;
 }

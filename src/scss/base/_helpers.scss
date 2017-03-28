@@ -51,6 +51,7 @@
  *    `:before` to contain the top-margins of child elements.
  */
 
+
 .clearfix:before,
 .clearfix:after {
   content: " "; /* 1 */
@@ -58,4 +59,14 @@
 }
 .clearfix:after {
   clear: both;
+}
+
+/// Typography
+
+.text-center{
+  text-align: center;
+}
+
+.bold{
+  font-weight: bold;
 }

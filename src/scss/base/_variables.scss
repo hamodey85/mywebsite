@@ -1,8 +1,22 @@
-$primer-color:#E0EBE8;
-$prime-text-color:#2ebba2;
-$shadow:rgba(0, 0, 0, 0.3);
+$primer-color:#FC6460;
+$primer2-color: #f9f8f7;
+$primer3-color: #966B4E;
+
+$second-color:#FABF61;
+$third-color: #27b5a9;
+$fifth-color: #FAF0F2;
+$light-color: #ffffff;
 
 
+$body-bg:#292b2c;
+$header-bg: $primer2-color;
+$footer-bg: $primer3-color;
+$menu-color: $primer3-color;
+
+
+
+
+$shadow:rgba(0, 0, 0, .3);
 // Header Variables
 $font-size-h1: 2.5rem !default;
 $font-size-h2: 2rem !default;

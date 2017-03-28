@@ -2,10 +2,13 @@
 @import 'vendors/base';
 @import 'layout/base';
 @import 'components/base';
+@import 'SVG';
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
-
+body{
+  background: $body-bg;
+}
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -20,4 +23,14 @@
 a{
     text-decoration: none;
     color: #333;
+}
+
+.l-padding{
+  padding: 100px 0;
+}
+.l-light {
+  background: $light-color;
+}
+.l-dark {
+  background: $header-bg;
 }

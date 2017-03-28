@@ -16,7 +16,7 @@
  *  `em` units.
  */
 html {
-  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -131,14 +131,6 @@ dfn {
 /**
  * Address variable `h1` font-size and margin within `section` and `article`
  * contexts in Firefox 4+, Safari, and Chrome.
- */
-h1 {
-  font-size: 2em;
-  margin: 0.67em 0;
-}
-
-/**
- * Addresses styling not present in IE 8/9.
  */
 mark {
   background: #ff0;
@@ -544,6 +536,46 @@ th {
 
 .clearfix:after {
   clear: both;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.1;
+  color: inherit;
+}
+
+h1, .h1 {
+  font-size: 2.5rem;
+}
+
+h2, .h2 {
+  font-size: 2rem;
+}
+
+h3, .h3 {
+  font-size: 1.75rem;
+}
+
+h4, .h4 {
+  font-size: 1.5rem;
+}
+
+h5, .h5 {
+  font-size: 1.25rem;
+}
+
+h6, .h6 {
+  font-size: 1rem;
 }
 
 @-ms-viewport {
@@ -1836,20 +1868,155 @@ html {
     margin-left: 91.66667%;
   }
 }
+.l-navbar {
+  clear: both;
+}
+
+.navbar {
+  background: #292b2c;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.nav_menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.nav_menu li {
+  float: left;
+}
+
+.menu_item {
+  font-weight: bold;
+  font-size: 1.2rem;
+  display: inline-block;
+  padding: 15px 25px;
+  transition: all .2s;
+  border-bottom: 4px solid #292b2c;
+}
+
+.menu_item {
+  color: #966B4E;
+}
+.menu_item:hover {
+  color: #FC6460;
+  border-bottom: 4px solid #FC6460;
+}
+
+.menu_active {
+  color: #FC6460;
+}
+
 .header {
-  background: #E0EBE8;
-  color: #2ebba2;
-  height: 500px;
+  height: 100vh;
 }
 
-.me {
-  margin-top: 200px;
+.brand {
   text-align: center;
+  width: 400px;
+  height: auto;
+  position: fixed;
+  left: 50%;
+  top: 50%;
+  z-index: -2;
+  transition: all .3s;
+  transform: translate3d(-50%, -50%, 0);
+  padding: 10px 20px;
 }
 
+.brand_title {
+  color: #966B4E;
+  margin-top: 0;
+}
+
+.hi {
+  color: #27b5a9;
+  background: #f9f8f7;
+  width: 150px;
+  padding: 20px 20px;
+  font-weight: bolder;
+  margin: 0 auto;
+}
+
+.hi_title {
+  color: #966B4E;
+  font-weight: 900;
+  line-height: 1.9;
+}
+
+footer {
+  height: 100px;
+  background: #966B4E;
+}
+
+#background {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: -100;
+  transform: translate3d(-50%, -50%, 0);
+  opacity: .1;
+}
+
+@media (min-width: 62em) {
+  #background {
+    display: block;
+  }
+}
+.cls-1,
+.cls-4 {
+  font-size: 117.12px;
+  font-weight: 700;
+}
+
+.cls-1 {
+  fill: #fc6460;
+  font-family: Wallobee-Bold, Wallobee;
+}
+
+.cls-2 {
+  fill: #404041;
+}
+
+.cls-3 {
+  fill: #00b5be;
+  opacity: 0.3;
+}
+
+.cls-4 {
+  fill: #966b4e;
+  font-family: Headmaster-Bold, Headmaster;
+}
+
+.cls-5 {
+  fill: none;
+  stroke: #fc6460;
+  stroke-width: 3px;
+  stroke-dasharray: 1000;
+  stroke-dashoffset: 1000;
+  animation: dash 1s linear forwards;
+}
+
+@keyframes dash {
+  100% {
+    stroke-dashoffset: 0;
+    stroke-dasharray: 0;
+  }
+}
 /* ==========================================================================
    Browser Upgrade Prompt
    ========================================================================== */
+body {
+  background: #292b2c;
+}
+
 .browserupgrade {
   margin: 0.2em 0;
   background: #ccc;
@@ -1865,4 +2032,16 @@ html {
 a {
   text-decoration: none;
   color: #333;
+}
+
+.l-padding {
+  padding: 100px 0;
+}
+
+.l-light {
+  background: #ffffff;
+}
+
+.l-dark {
+  background: #f9f8f7;
 }
