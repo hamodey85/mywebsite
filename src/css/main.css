@@ -1898,7 +1898,7 @@ html {
 }
 
 .menu_item {
-  color: #966B4E;
+  color: #FABF61;
 }
 .menu_item:hover {
   color: #FC6460;
@@ -1921,34 +1921,60 @@ html {
   left: 50%;
   top: 50%;
   z-index: -2;
+  overflow: hidden;
   transition: all .3s;
   transform: translate3d(-50%, -50%, 0);
   padding: 10px 20px;
+  opacity: 0;
+  animation: showBrand .7s ease-in forwards;
 }
 
 .brand_title {
   color: #966B4E;
-  margin-top: 0;
+  margin-top: -30px;
+  font-size: 1rem;
+  overflow: hidden;
 }
 
+@keyframes showBrand {
+  100% {
+    opacity: 1;
+  }
+}
 .hi {
-  color: #27b5a9;
-  background: #f9f8f7;
-  width: 150px;
-  padding: 20px 20px;
+  color: #f9f8f7;
+  background: #EB6B56;
+  width: 250px;
+  padding: 100px 20px;
   font-weight: bolder;
+  border-radius: 50%;
   margin: 0 auto;
 }
 
 .hi_title {
-  color: #966B4E;
+  color: #292b2c;
   font-weight: 900;
   line-height: 1.9;
 }
 
+.dev-wrapper {
+  text-align: center;
+  padding: 20px 50px;
+}
+
+.dev_icon {
+  font-size: 4rem;
+  font-weight: bold;
+  background: #FC6460;
+  display: inline-block;
+  margin: 20px auto;
+  padding: 20px 30px;
+  border-radius: 50%;
+  color: #FABF61;
+}
+
 footer {
-  height: 100px;
-  background: #966B4E;
+  height: 250px;
 }
 
 #background {
@@ -1971,8 +1997,8 @@ footer {
   }
 }
 .cls-1,
-.cls-4 {
-  font-size: 117.12px;
+.svg-brain {
+  font-size: 117px;
   font-weight: 700;
 }
 
@@ -1990,24 +2016,68 @@ footer {
   opacity: 0.3;
 }
 
-.cls-4 {
+.svg-brain {
   fill: #966b4e;
   font-family: Headmaster-Bold, Headmaster;
 }
 
-.cls-5 {
+.border {
   fill: none;
   stroke: #fc6460;
   stroke-width: 3px;
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: dash 1s linear forwards;
+  stroke-dasharray: 1666;
+  stroke-dashoffset: 1666;
+}
+
+.borderAnimate {
+  animation: dash 3s linear forwards;
+}
+
+.svg-o {
+  animation: open-mouth 1.5s ease-in-out forwards;
+}
+
+.glass {
+  animation: glass-shake 2s ease-in-out forwards;
 }
 
 @keyframes dash {
   100% {
     stroke-dashoffset: 0;
-    stroke-dasharray: 0;
+  }
+}
+
+@keyframes open-mouth {
+  0% {
+    font-size: 50px;
+    opacity: 0;
+  }
+  89% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+    font-size: 50px;
+  }
+  100% {
+    font-size: 117px;
+  }
+}
+
+@keyframes glass-shake {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+    transform: rotateX(0);
+  }
+  91% {
+    opacity: .7;
+    transform: rotateX(100deg);
+  }
+  100% {
+    transform: rotate(4deg);
   }
 }
 /* ==========================================================================
@@ -2044,4 +2114,8 @@ a {
 
 .l-dark {
   background: #f9f8f7;
+}
+
+.l-yellow {
+  background: #FFC153;
 }

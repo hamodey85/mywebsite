@@ -28,7 +28,7 @@
   @extend %menu;
   color: $menu-color;
   &:hover{
-    color: $primer-color;
+    color: $menu-hover-color;
     border-bottom: 4px solid  $primer-color;
   }
 }

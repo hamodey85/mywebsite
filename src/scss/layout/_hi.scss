@@ -1,13 +1,30 @@
 .hi{
-  color: $third-color;
-  background: $header-bg;
-  width: 150px;
-  padding: 20px 20px;
+  color: $header-bg;
+  background: $hi-color-1;
+  width: 250px;
+  padding: 100px 20px;
   font-weight: bolder;
+  border-radius: 50%;
   margin: 0 auto;
 }
 .hi_title{
-  color: $primer3-color;
+  color: $body-bg;
   font-weight: 900;
   line-height: 1.9;
+}
+
+.dev-wrapper {
+  text-align: center;
+  padding: 20px 50px;
+}
+
+.dev_icon {
+  font-size: 4rem;
+  font-weight: bold;
+  background: $primer-color;
+  display: inline-block;
+  margin: 20px auto;
+  padding: 20px 30px;
+  border-radius: 50%;
+  color: $second-color;
 }

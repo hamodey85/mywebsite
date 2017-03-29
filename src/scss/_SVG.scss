@@ -1,20 +1,81 @@
 .cls-1,
-.cls-4 { font-size: 117.12px; font-weight: 700; }
-.cls-1 { fill: #fc6460; font-family: Wallobee-Bold, Wallobee; }
+.svg-brain {
+  font-size: 117.12px;
+  font-weight: 700;
+}
+
+.cls-1 {
+  fill: #fc6460;
+  font-family: Wallobee-Bold, Wallobee;
+}
 .cls-2 { fill: #404041; }
-.cls-3 { fill: #00b5be; opacity: 0.3; }
-.cls-4 { fill: #966b4e; font-family: Headmaster-Bold, Headmaster; }
-.cls-5 {
+
+.cls-3 {
+  fill: #00b5be;
+  opacity: 0.3;
+}
+
+.svg-brain {
+  fill: #966b4e;
+  font-family: Headmaster-Bold,
+  Headmaster;
+}
+
+.border {
   fill: none;
   stroke: #fc6460;
   stroke-width: 3px;
-  stroke-dasharray: 1000;
-  stroke-dashoffset: 1000;
-  animation: dash 1s linear forwards;
+  stroke-dasharray: 1666;
+  stroke-dashoffset: 1666;
+}
+
+.borderAnimate {
+  animation: dash 3s linear forwards;
+}
+
+.svg-o {
+  animation: open-mouth 1.5s ease-in-out forwards;
+}
+
+.glass {
+  animation: glass-shake 2s ease-in-out forwards;
 }
 @keyframes dash {
   100% {
     stroke-dashoffset: 0;
-    stroke-dasharray: 0;
+  }
+}
+
+@keyframes open-mouth {
+  0% {
+    font-size: 50.12px;
+    opacity: 0;
+  }
+  89% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 1;
+    font-size: 50.12px;
+  }
+  100% {
+    font-size: 117.12px;
+  }
+}
+
+@keyframes glass-shake {
+  0% {
+    opacity: 0;
+  }
+  90% {
+    opacity: 0;
+    transform: rotateX(0);
+  }
+  91% {
+    opacity: .7;
+    transform: rotateX(100deg);
+  }
+  100% {
+    transform: rotate(4deg);
   }
 }
