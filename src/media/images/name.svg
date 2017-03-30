@@ -1,0 +1,79 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 525.45 153.82">
+  <defs>
+    <style>
+      .cls-1 {
+        font-size: 72px;
+        fill: #1a1a1a;
+        font-family: SegoePrint-Bold, Segoe Print;
+        font-weight: 700;
+      }
+
+      .cls-2 {
+        fill: #fc6460;
+      }
+
+      .cls-3 {
+        fill: url(#radial-gradient);
+      }
+
+      .cls-4 {
+        opacity: 0.5;
+      }
+
+      .cls-5 {
+        fill: url(#radial-gradient-2);
+      }
+
+      .cls-6 {
+        opacity: 0.31;
+      }
+
+      .cls-7 {
+        fill: url(#radial-gradient-3);
+      }
+
+      .cls-8 {
+        opacity: 0.36;
+      }
+
+      .cls-9 {
+        fill: url(#radial-gradient-4);
+      }
+    </style>
+    <radialGradient id="radial-gradient" cx="116.73" cy="65.79" r="53.72" gradientTransform="translate(-4.46 92.49) scale(0.34 0.34)" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#fff"/>
+      <stop offset="0.13" stop-color="#fff" stop-opacity="0.9"/>
+      <stop offset="0.4" stop-color="#fff" stop-opacity="0.64"/>
+      <stop offset="0.78" stop-color="#fff" stop-opacity="0.24"/>
+      <stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="radial-gradient-2" cx="35.7" cy="115.13" r="27.71" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-3" cx="35.7" cy="115.13" r="27.76" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#radial-gradient"/>
+    <radialGradient id="radial-gradient-4" cx="35.7" cy="115.13" r="27.51" gradientTransform="matrix(1, 0, 0, 1, 0, 0)" xlink:href="#radial-gradient"/>
+  </defs>
+  <title>Asset 3</title>
+  <g id="Layer_2" data-name="Layer 2">
+    <g id="hamodey">
+      <text class="cls-1" transform="translate(45.54 60.5)">Hamodey .m</text>
+    </g>
+    <g id="line">
+      <g id="line-2" data-name="line">
+        <path class="cls-2" d="M35.87,115.13c40.8-2.9,81.6-4.4,122.4-5.49s81.6-1.5,122.4-1.51,81.6.47,122.4,1.49,81.6,2.59,122.4,5.5c-40.8,2.92-81.6,4.42-122.4,5.5s-81.6,1.5-122.4,1.49-81.6-.49-122.4-1.51S76.67,118,35.87,115.13Z"/>
+      </g>
+    </g>
+    <g id="Layer_4" data-name="Layer 4">
+      <g>
+        <circle class="cls-3" cx="35.7" cy="115.13" r="18.48"/>
+        <g class="cls-4">
+          <path class="cls-5" d="M0,99.87c6,2.35,12,4.81,18,7.28s11.93,5,17.89,7.52l17.8,7.74,8.87,3.94c2.94,1.35,5.9,2.66,8.83,4-3-1.17-6-2.39-9-3.59l-9-3.69L35.5,115.59c-5.93-2.58-11.89-5.12-17.8-7.74S5.87,102.6,0,99.87Z"/>
+        </g>
+        <g class="cls-6">
+          <path class="cls-7" d="M2.08,134.54c5.5-3.41,11.06-6.73,16.62-10S29.86,118,35.45,114.7l16.87-9.61,8.48-4.73c2.84-1.55,5.67-3.12,8.53-4.64-2.75,1.72-5.52,3.38-8.28,5.07l-8.34,5-16.75,9.81c-5.62,3.2-11.22,6.44-16.87,9.6S7.78,131.48,2.08,134.54Z"/>
+        </g>
+        <g class="cls-8">
+          <path class="cls-9" d="M32.52,76.44c.74,6.43,1.36,12.87,2,19.32s1.13,12.89,1.7,19.34l1.47,19.36.66,9.68c.18,3.23.4,6.46.55,9.69-.38-3.22-.69-6.44-1-9.65l-.93-9.66-1.7-19.34c-.49-6.45-1-12.9-1.47-19.36S32.84,82.9,32.52,76.44Z"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

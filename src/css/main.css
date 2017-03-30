@@ -16,7 +16,7 @@
  *  `em` units.
  */
 html {
-  font-family: 'Open Sans', sans-serif;
+  font-family: sans-serif,'Open Sans';
   /* 1 */
   -ms-text-size-adjust: 100%;
   /* 2 */
@@ -1951,26 +1951,67 @@ html {
   margin: 0 auto;
 }
 
-.hi_title {
-  color: #292b2c;
-  font-weight: 900;
-  line-height: 1.9;
-}
-
-.dev-wrapper {
-  text-align: center;
-  padding: 20px 50px;
-}
-
-.dev_icon {
-  font-size: 4rem;
-  font-weight: bold;
-  background: #FC6460;
-  display: inline-block;
-  margin: 20px auto;
-  padding: 20px 30px;
+.avater {
+  width: 300px;
+  background: #47B39D;
+  padding: 10px 30px;
   border-radius: 50%;
-  color: #FABF61;
+  overflow: hidden;
+  margin: 0 auto;
+  opacity: .9;
+}
+
+.avater_img {
+  width: 100%;
+  height: auto;
+  margin-bottom: -20px;
+}
+
+.personal_name {
+  width: 380px;
+  margin: 30px auto;
+}
+
+.personal_info {
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 4rem;
+  color: #28292A;
+  padding: 0 30px;
+  opacity: .9;
+}
+
+.personal_hi {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #312e28;
+  padding: 5px 10px;
+  margin-top: 130px;
+  display: block;
+}
+
+.what {
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #EB6B56;
+  margin-top: 0;
+}
+
+.card {
+  margin-top: 50px;
+}
+.card_icon {
+  font-size: 5rem;
+  color: #2B2210;
+  width: 120px;
+  padding: 15px 0;
+  margin: 0 auto;
+  background: #726B5D;
+  border-radius: 50%;
+}
+.card_title {
+  color: #A49B89;
+  font-weight: bold;
 }
 
 footer {
@@ -1998,7 +2039,7 @@ footer {
 }
 .cls-1,
 .svg-brain {
-  font-size: 117px;
+  font-size: 117.12px;
   font-weight: 700;
 }
 
@@ -2046,10 +2087,9 @@ footer {
     stroke-dashoffset: 0;
   }
 }
-
 @keyframes open-mouth {
   0% {
-    font-size: 50px;
+    font-size: 50.12px;
     opacity: 0;
   }
   89% {
@@ -2057,13 +2097,12 @@ footer {
   }
   90% {
     opacity: 1;
-    font-size: 50px;
+    font-size: 50.12px;
   }
   100% {
-    font-size: 117px;
+    font-size: 117.12px;
   }
 }
-
 @keyframes glass-shake {
   0% {
     opacity: 0;
@@ -2105,7 +2144,7 @@ a {
 }
 
 .l-padding {
-  padding: 100px 0;
+  padding: 120px 0 180px;
 }
 
 .l-light {
@@ -2113,9 +2152,9 @@ a {
 }
 
 .l-dark {
-  background: #f9f8f7;
+  background: #312e28;
 }
 
 .l-yellow {
-  background: #FFC153;
+  background: #FABF61;
 }

@@ -7,24 +7,66 @@
   border-radius: 50%;
   margin: 0 auto;
 }
-.hi_title{
-  color: $body-bg;
-  font-weight: 900;
-  line-height: 1.9;
-}
 
-.dev-wrapper {
-  text-align: center;
-  padding: 20px 50px;
-}
 
-.dev_icon {
-  font-size: 4rem;
-  font-weight: bold;
-  background: $primer-color;
-  display: inline-block;
-  margin: 20px auto;
-  padding: 20px 30px;
+.avater{
+  width: 300px;
+  background: $hi-color-3;
+  padding: 10px 30px;
   border-radius: 50%;
-  color: $second-color;
+  overflow: hidden;
+  margin:0 auto ;
+  opacity: .9;
+}
+.avater_img{
+  width: 100%;
+  height:auto;
+  margin-bottom: -20px;
+}
+.personal_name{
+  width: 380px;
+  margin: 30px auto;
+}
+
+.personal_info{
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 4rem;
+  color: #28292A;
+  padding:0 30px;
+  opacity: .9;
+}
+.personal_hi{
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: #312e28;
+  padding:5px 10px;
+  margin-top: 130px;
+  display: block;
+}
+
+.what{
+  font-size: 3.5rem;
+  font-weight: bold;
+  color: $hi-color-1;
+  margin-top: 0;
+}
+.card{
+  margin-top: 50px;
+  &_icon{
+    font-size: 5rem;
+    color: #2B2210;
+    width: 120px;
+    padding: 15px 0;
+    margin: 0 auto;
+    background: #726B5D;
+    border-radius: 50%;
+  }
+  &_title{
+    color: #A49B89;
+    font-weight: bold;
+  }
+  &_body{
+
+  }
 }

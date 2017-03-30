@@ -21,7 +21,7 @@ $legacy_browser_support: false !default;
  */
 
 html {
-  font-family: 'Open Sans', sans-serif; /* 1 */
+  font-family:  sans-serif,'Open Sans'; /* 1 */
   -ms-text-size-adjust: 100%; /* 2 */
   -webkit-text-size-adjust: 100%; /* 2 */
   @if $legacy_browser_support {
