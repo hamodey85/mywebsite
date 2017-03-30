@@ -1941,16 +1941,6 @@ html {
     opacity: 1;
   }
 }
-.hi {
-  color: #f9f8f7;
-  background: #EB6B56;
-  width: 250px;
-  padding: 100px 20px;
-  font-weight: bolder;
-  border-radius: 50%;
-  margin: 0 auto;
-}
-
 .avater {
   width: 300px;
   background: #47B39D;
@@ -1972,50 +1962,56 @@ html {
   margin: 30px auto;
 }
 
-.personal_info {
-  font-size: 2.5rem;
-  font-weight: bold;
-  line-height: 4rem;
-  color: #28292A;
-  padding: 0 30px;
-  opacity: .9;
-}
-
 .personal_hi {
   font-size: 3.5rem;
   font-weight: bold;
   color: #312e28;
   padding: 5px 10px;
-  margin-top: 130px;
+  margin-top: 10px;
   display: block;
 }
 
-.what {
-  font-size: 3.5rem;
+.personal_info {
+  font-size: 2.5rem;
   font-weight: bold;
-  color: #EB6B56;
-  margin-top: 0;
+  line-height: 4rem;
+  color: #28292A;
+  margin-top: 10px;
+  margin-bottom: 0;
+  padding: 0 30px;
+  opacity: .9;
 }
 
-.card {
-  margin-top: 50px;
+.l-skill_coding {
+  background: #E57B5E;
 }
-.card_icon {
-  font-size: 5rem;
-  color: #2B2210;
-  width: 120px;
-  padding: 15px 0;
-  margin: 0 auto;
-  background: #726B5D;
-  border-radius: 50%;
+
+.skill {
+  padding: 0 30px;
 }
-.card_title {
-  color: #A49B89;
+.skill_title {
+  color: #343B42;
   font-weight: bold;
+  font-size: 3.5rem;
+  text-align: center;
+}
+.skill_body {
+  color: #343B42;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+.skill_image {
+  padding: 0 30px;
+}
+
+.l-skill_design {
+  background: #f9f8f7;
 }
 
 footer {
   height: 250px;
+  background: #292b2c;
 }
 
 #background {
@@ -2144,7 +2140,7 @@ a {
 }
 
 .l-padding {
-  padding: 120px 0 180px;
+  padding: 100px 0;
 }
 
 .l-light {
@@ -2153,6 +2149,10 @@ a {
 
 .l-dark {
   background: #312e28;
+}
+
+.l-what {
+  background: #232727;
 }
 
 .l-yellow {
