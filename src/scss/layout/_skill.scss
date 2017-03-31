@@ -1,0 +1,32 @@
+.l-skill_coding{
+  background: #E57B5E;
+}
+.skill{
+  padding: 0 30px;
+  &_title{
+    color: #343B42;
+    font-weight: bold;
+    font-size: 3.5rem;
+    text-align: center;
+  }
+  &_body{
+    color: #343B42;
+    font-size: 2rem;
+    font-weight: bold;
+  }
+}
+.skill_image{
+  padding:0 30px;
+}
+////////////////////////////////////////////////////////////////
+
+.l-skill_design{
+  //background: #312e28;
+  background: #E57B5E;
+}
+////////////////////////////////////////////////////////////////////
+.l-skill_idea {
+  //background: $primer2-color;
+  //background: #E57B5E;
+  background: #60BAAF;
+}
