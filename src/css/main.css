@@ -2006,12 +2006,17 @@ html {
 }
 
 .l-skill_design {
-  background: #f9f8f7;
+  background: #E57B5E;
+}
+
+.l-skill_idea {
+  background: #60BAAF;
 }
 
 footer {
-  height: 250px;
+  color: #E57B5E;
   background: #292b2c;
+  padding: 30px 0;
 }
 
 #background {
@@ -2156,5 +2161,5 @@ a {
 }
 
 .l-yellow {
-  background: #FABF61;
+  background: #A3D8AE;
 }
