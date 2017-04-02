@@ -2044,7 +2044,12 @@ html {
 }
 
 .skill_image {
+  width: 100%;
   padding: 0 30px;
+}
+.skill_image img {
+  max-width: 100%;
+  width: auto;
 }
 
 .l-skill_design {
