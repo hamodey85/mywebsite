@@ -1,25 +1,27 @@
-.cls-1,
-.svg-brain {
-  font-size: 117.12px;
-  font-weight: 700;
-}
-
 .cls-1 {
   fill: #fc6460;
-  font-family: Wallobee-Bold, Wallobee;
 }
-.cls-2 { fill: #404041; }
+
+.cls-2 {
+  fill: #404041;
+}
 
 .cls-3 {
   fill: #00b5be;
   opacity: 0.3;
 }
 
-.svg-brain {
+.cls-4 {
   fill: #966b4e;
-  font-family: Headmaster-Bold,
-  Headmaster;
 }
+
+.cls-5 {
+  fill: none;
+  stroke: #fc6460;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
+}
+
 
 .border {
   fill: none;

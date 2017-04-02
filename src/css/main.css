@@ -1922,7 +1922,6 @@ html {
   top: 50%;
   z-index: -2;
   overflow: hidden;
-  transition: all .3s;
   transform: translate3d(-50%, -50%, 0);
   padding: 10px 20px;
   opacity: 0;
@@ -1942,7 +1941,7 @@ html {
   }
 }
 .avater {
-  width: 300px;
+  max-width: 300px;
   background: #47B39D;
   padding: 10px 30px;
   border-radius: 50%;
@@ -1958,7 +1957,7 @@ html {
 }
 
 .personal_name {
-  width: 380px;
+  max-width: 380px;
   margin: 30px auto;
 }
 
@@ -1974,12 +1973,35 @@ html {
 .personal_info {
   font-size: 2.5rem;
   font-weight: bold;
-  line-height: 4rem;
   color: #28292A;
   margin-top: 10px;
   margin-bottom: 0;
   padding: 0 30px;
   opacity: .9;
+}
+@media (min-width: 576px) {
+  .personal_info {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+}
+@media (max-width: 768px) {
+  .personal_info {
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+  }
+}
+@media (min-width: 992px) {
+  .personal_info {
+    font-size: 2.2rem;
+    line-height: 3rem;
+  }
+}
+@media (min-width: 1200px) {
+  .personal_info {
+    font-size: 2.5rem;
+    line-height: 4rem;
+  }
 }
 
 .l-skill_coding {
@@ -1997,8 +2019,28 @@ html {
 }
 .skill_body {
   color: #343B42;
-  font-size: 2rem;
   font-weight: bold;
+  word-break: break-all;
+}
+@media (min-width: 576px) {
+  .skill_body {
+    font-size: 1.6em;
+  }
+}
+@media (max-width: 768px) {
+  .skill_body {
+    font-size: 1.6rem;
+  }
+}
+@media (min-width: 992px) {
+  .skill_body {
+    font-size: 1.8rem;
+  }
+}
+@media (min-width: 1200px) {
+  .skill_body {
+    font-size: 2rem;
+  }
 }
 
 .skill_image {
@@ -2038,15 +2080,8 @@ footer {
     display: block;
   }
 }
-.cls-1,
-.svg-brain {
-  font-size: 117.12px;
-  font-weight: 700;
-}
-
 .cls-1 {
   fill: #fc6460;
-  font-family: Wallobee-Bold, Wallobee;
 }
 
 .cls-2 {
@@ -2058,9 +2093,15 @@ footer {
   opacity: 0.3;
 }
 
-.svg-brain {
+.cls-4 {
   fill: #966b4e;
-  font-family: Headmaster-Bold, Headmaster;
+}
+
+.cls-5 {
+  fill: none;
+  stroke: #fc6460;
+  stroke-miterlimit: 10;
+  stroke-width: 3px;
 }
 
 .border {

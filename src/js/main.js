@@ -33,7 +33,8 @@ function startJs(){
         var scrollValue = document.body.scrollTop || document.documentElement.scrollTop;
         // Get percentage scrolling
         var percentageComplete = (scrollValue / (document.body.offsetHeight - window.innerHeight)) * 100;
-        var value = percentageComplete * 84;
+        console.log(percentageComplete);
+        var value = percentageComplete * (pathLength/8);
 
         if (value >= pathLength) {
             brandBorder.style.strokeDashoffset = pathLength;

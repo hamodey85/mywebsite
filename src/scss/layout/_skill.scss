@@ -8,11 +8,24 @@
     font-weight: bold;
     font-size: 3.5rem;
     text-align: center;
+
   }
   &_body{
     color: #343B42;
-    font-size: 2rem;
     font-weight: bold;
+    word-break: break-all;
+    @media (min-width: 576px) {
+      font-size: 1.6em;
+    }
+    @media (max-width: 768px) {
+      font-size: 1.6rem;
+    }
+    @media (min-width: 992px) {
+      font-size: 1.8rem;
+    }
+    @media (min-width: 1200px) {
+      font-size: 2rem;
+    }
   }
 }
 .skill_image{

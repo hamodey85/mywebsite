@@ -1,7 +1,8 @@
 .header{
-  //background-color: $header-bg;
   height: 100vh;
-
+  @media (max-width: 750) {
+    
+  }
 }
 .brand{
   text-align: center;
@@ -12,7 +13,6 @@
   top:50%;
   z-index: -2;
   overflow: hidden;
-  transition: all .3s;
   transform: translate3d(-50%,-50%,0);
   padding:10px 20px;
   opacity: 0;
@@ -23,7 +23,6 @@
   margin-top: -30px;
   font-size: 1rem;
   overflow: hidden;
-
 }
 
 @keyframes showBrand {
